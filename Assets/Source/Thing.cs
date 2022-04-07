@@ -63,10 +63,10 @@ namespace Test
                         if (EditorGUI.PropertyField(position, prop))
                         {
                             float value = prop.floatValue;
-                            
+
                         }
                     }
-
+                    return 0;
                 }
 
                 // f
