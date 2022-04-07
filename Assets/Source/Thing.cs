@@ -40,7 +40,7 @@ namespace Test
 
                 for (int i = 0; i < Bytes.MaxInlineSize; i++)
                     bytes[i] = (byte) bytesProp.GetArrayElementAtIndex(i).intValue;
-                
+
                 static int DoStuff(System.Type type, Rect position, SerializedProperty prop, Span<byte> dest)
                 {
                     if (type == typeof(int) || type == typeof(uint))
