@@ -112,7 +112,7 @@ namespace BytesSerializationEditor
                 }
                 else
                 {
-                    Assert.IsTrue(false);
+                    Assert.IsTrue(false, "This type is not yet supported.");
                 }
             }
             
@@ -121,6 +121,8 @@ namespace BytesSerializationEditor
 
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
         {
+            if (!property.isExpanded)
+                return EditorGUIUtility.singleLineHeight;
             return EditorGUIUtility.singleLineHeight * 10;
         }
     }

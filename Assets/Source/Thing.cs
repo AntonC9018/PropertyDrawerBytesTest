@@ -14,7 +14,8 @@ namespace BytesSerializationEditor
 
     public enum BytesType
     {
-        Int, Float,
+        Int,
+        Float,
     }
 
     public class Thing : MonoBehaviour
