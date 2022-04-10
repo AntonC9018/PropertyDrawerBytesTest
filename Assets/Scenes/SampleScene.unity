@@ -331,7 +331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bytes:
-    type: 0
+    type: 1
     bytes: 00000000000000000000000000000000
 --- !u!4 &2059526406
 Transform:

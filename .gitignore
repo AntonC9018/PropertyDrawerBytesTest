@@ -4,3 +4,9 @@ Library
 .vsconfig
 *.csproj
 *.sln
+.vs/PropertyDrawerBytesTest/v16/.suo
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
+UpgradeLog.htm
+Tests.csproj.user
+.vs/ProjectSettings.json
